@@ -1,5 +1,4 @@
 {
-  /* GTK+ is needed by JavaFX. */
   "app-id": "com.mojang.Minecraft",
   "runtime": "org.gnome.Platform",
   "runtime-version": "3.20",
@@ -7,19 +6,14 @@
   "command": "minecraft",
   "finish-args": [
       "--persist=.minecraft",
-      /* X11 access */
       "--socket=x11",
-      /* OpenGL access */
       "--device=dri",
-      /* PulseAudio access */
       "--socket=pulseaudio",
-      /* Network access */
       "--share=network",
       "--extra-data=Minecraft.jar:e8d90b2637b141b556670d8460d317aadb6e4f2e644e519995c428800b25f212:280212:280212:http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar"
   ],
   "modules": [
       {
-          /* Needed by Minecraft 1.8.2 and up. */
           "name": "xrandr",
           "sources": [
               {
