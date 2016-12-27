@@ -17,6 +17,7 @@ all:
 $(INSTALLED_MINECRAFT):
 	mkdir -p $(@D)
 	$(file > $(@),$(MINECRAFT_CONTENT))
+	chmod +x $@
 
 $(INSTALLED_DESKTOP):
 	mkdir -p $(@D)
