@@ -40,6 +40,31 @@
           ]
       },
       {
+          "name": "xmlto",
+          "cleanup-platform": [ "*" ],
+          "no-autogen": true,
+          "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://fedorahosted.org/releases/x/m/xmlto/xmlto-0.0.28.tar.gz",
+                    "sha256": "2f986b7c9a0e9ac6728147668e776d405465284e13c74d4146c9cbc51fd8aad3"
+                }
+          ]
+        },
+        {
+          "name": "xdg-utils",
+          "sources": [
+              {
+                  "type": "git",
+                  "url": "git://anongit.freedesktop.org/xdg/xdg-utils"
+              },
+              {
+                  "type": "patch",
+                  "path": "xdg-utils-no-lynx-dependency.patch"
+              }
+          ]
+      },
+      {
           "name": "minecraft",
           "no-autogen": true,
           "sources" : [
