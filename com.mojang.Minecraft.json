@@ -56,7 +56,8 @@
           "sources": [
               {
                   "type": "git",
-                  "url": "git://anongit.freedesktop.org/xdg/xdg-utils"
+                  "url": "git://anongit.freedesktop.org/xdg/xdg-utils",
+                  "branch": "09c51e937e61c735bcfb1422ab4883626f33f900"
               },
               {
                   "type": "patch",
