@@ -9,6 +9,7 @@
       "--socket=x11",
       "--device=dri",
       "--socket=pulseaudio",
+      "--socket=session-bus",
       "--share=network",
       "--extra-data=Minecraft.jar:e8d90b2637b141b556670d8460d317aadb6e4f2e644e519995c428800b25f212:280212:280212:http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar"
   ],
