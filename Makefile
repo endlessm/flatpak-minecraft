@@ -5,7 +5,7 @@ BUNDLE=minecraft.flatpak
 
 RUNTIME=org.gnome.Platform
 SDK=org.gnome.Sdk
-VERSION=3.20
+VERSION=3.26
 
 SDK_REPO=gnome
 SDK_LOCATION=https://sdk.gnome.org/repo/
