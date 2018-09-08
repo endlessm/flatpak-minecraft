@@ -1,4 +1,4 @@
-#flatpak-minecraft
+# flatpak-minecraft
 
 A small tool to automatially bundle Minecraft as a flatpak.
 
