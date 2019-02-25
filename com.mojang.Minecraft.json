@@ -7,7 +7,7 @@
   "finish-args": [
       "--persist=.minecraft",
       "--socket=x11",
-      "--device=dri",
+      "--device=all",
       "--socket=pulseaudio",
       "--socket=session-bus",
       "--share=network",
